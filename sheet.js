@@ -79,10 +79,3 @@ class BottomSheet {
         this.el.classList.remove("active");
     }
 }
-
-const bottomSheet = new BottomSheet("filtering");
-document
-    .getElementById("gosheet")
-    .addEventListener("click", bottomSheet.activate);
-
-window.bottomSheet = bottomSheet;
